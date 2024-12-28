@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html>
+
+<title>Ioannis Oikonomidis - About me</title>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="icon" type="image/x-icon" href="../figures/favicon_d20.ico">
+<link rel="stylesheet" href="../css/w1.css">
+<link rel="stylesheet" href="../css/w3.css">
+<link rel="stylesheet" href="../css/mycss.css">
+<link rel="stylesheet" href="../css/fontawesome/css/all.css">
+<link rel="stylesheet" href="../css/fontawesome/css/v4-shims.css">
+
+<body class="w3-black w3-content" style="max-width:1600px">
+
+	<!-- Sidebar/menu -->
+	<nav class="w3-sidebar w3-collapse w3-black" style="z-index:3;width:300px;" id="mySidebar"><br>
+		<div class="w3-container">
+			<a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
+			  <i class="fa fa-remove"></i>
+			</a>
+			<img src="../figures/me.jpg" style="width:45%;" class="w3-round"><br><br>
+			<h4><b>Ioannis Oikonomidis</b></h4>
+				<p class="w3-text-white">Mathematician - Statistician<br>
+				PhD Candidate</p>
+		</div>
+		<div class="w3-bar-block">
+			<h5 class="w3-bar-item w3-padding w3-text"><i class="fa fa-envelope fa-fw w3-margin-right w3-text-orange"></i>goikon&commat;math&period;uoa&period;gr</h5>
+			<h5 class="w3-bar-item w3-padding w3-text"><i class="fa fa-linkedin fa-fw w3-margin-right w3-text-orange"></i><a class="menu-a" href="https://www.linkedin.com/in/goikon/" target = "_blank">Ioannis Oikonomidis</a></h5>
+			<h5 class="w3-bar-item w3-padding w3-text"><i class="fa fa-github fa-fw w3-margin-right w3-text-orange"></i><a class="menu-a" href="https://github.com/thechibo" target = "_blank">thechibo</a></h5>
+			<h5 class="w3-bar-item w3-padding w3-text"><i class="fa fa-brands fa-orcid fa-fw w3-margin-right w3-text-orange"></i><a class="menu-a" href="https://orcid.org/my-orcid?orcid=0000-0001-8130-2104" target = "_blank">0000-0001-8130-2104</a></h5>
+			<h6 class="w3-bar-item w3-padding w3-text">Office No. 108 <br> Department of Mathematics <br> University of Athens <br> Zografos 15784, Greece
+				<br><br>
+			Last Update: December 2024
+		</h6>
+		</div>
+	</nav>
+
+	<!-- Overlay effect when opening sidebar on small screens -->
+	<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+	<!-- !PAGE CONTENT! -->
+	<div class="w3-main" style="margin-left:300px">
+
+		<!-- Header -->
+		<header id="portfolio">
+			<a href="#"><img src="../figures/me.jpg" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
+			<span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+			<div class="w3-container">
+				<div class="w3-section w3-padding-16">
+				  <a href="../index.html"><button class="w3-button w3-black"><i class="fa fa-home w3-margin-right"></i>Home</button></a>
+				  <a href="toolbox.html"><button class="w3-button w3-black"><i class="fa fa-wrench w3-margin-right"></i>Toolbox</button></a>
+				  <a href="aboutme.html"><button class="w3-button w3-orange"><i class="fa fa-user w3-margin-right"></i>About Me</button></a>
+				</div>
+			</div>
+		</header>
+	  
+		<div class="w3-container w3-padding" style="margin-bottom:32px">
+		
+			<h2 class="w3-text-white"><i class="fa fa-user fa-fw w3-margin-right w3-xxlarge w3-text-orange"></i>About Me</h2>
+			
+			<div class="w3-container">
+				<p>I am a PhD student at the National and Kapodistrian University of Athens, working under the supervision of Professor
+				<a href = "http://scholar.uoa.gr/strevezas" target = "_blank" style="text-decoration: none;" class="w3-text-orange">Samis Trevezas</a>.
+					The research subject I am working on is statistical techniques for crop stage monitoring and prediction with remote sensing data.</p>
+					<a href="../files/cv.pdf" target="_blank" style="text-decoration: none;" class="w3-text-orange download="Ioannis Oikonomidis - Resume">
+					Click here to download my resume.</a>
+				<p>I would like to thank the <a href = "https://www.bodossaki.gr/en/" target = "_blank" style="text-decoration: none;" class="w3-text-orange">Bodossaki Foundation</a>
+					and the <a href = "https://fanourakisfoundation.org/" target = "_blank" style="text-decoration: none;" class="w3-text-orange">Fanourakis Foundation</a>
+					for funding my Master's and PhD studies.</p>
+			</div>
+			
+			<div class="tab">
+				<button class="tablinks" onclick="openCity(event, 'Experience')" id="defaultOpen">
+					<i class="fa fa-suitcase fa-fw w3-margin-right w3-xlarge w3-text-orange"></i>Experience
+				</button>
+				<button class="tablinks" onclick="openCity(event, 'Education')">
+					<i class="fa fa-graduation-cap fa-fw w3-margin-right w3-xlarge w3-text-orange"></i>Education
+				</button>
+				<button class="tablinks" onclick="openCity(event, 'Publications')">
+					<i class="fa fa-paper-plane fa-fw w3-margin-right w3-xlarge w3-text-orange"></i>Publications
+				</button>
+				<button class="tablinks" onclick="openCity(event, 'Scholarships')">
+					<i class="fa fa-trophy fa-fw w3-margin-right w3-xlarge w3-text-orange"></i>Awards
+				</button>
+				<button class="tablinks" onclick="openCity(event, 'Conferences')">
+					<i class="fa fa-users fa-fw w3-margin-right w3-xlarge w3-text-orange"></i>Conferences
+				</button>
+				<button class="tablinks" onclick="openCity(event, 'Skills')">
+					<i class="fa fa-motorcycle fa-fw w3-margin-right w3-xlarge w3-text-orange"></i>Skills
+				</button>
+				<button class="tablinks" onclick="openCity(event, 'Hobbies')">
+					<i class="fa fa-chess fa-fw w3-margin-right w3-xlarge w3-text-orange"></i>Hobbies
+				</button>
+			</div>
+			
+			<div id="Experience" class="tabcontent">
+				<div class="w3-container w3-margin-top">
+				  <h5 class="w3-text-white"><b>Teaching Assistant</b></h5>
+				  <i class="fa fa-calendar w3-text-orange fa-fw w3-margin-right"></i>2020 - now &nbsp; &nbsp;
+				  <i class="fa fa-university w3-text-orange fa-fw w3-margin-right"></i>National and Kapodistrian University of Athens
+				  <p>I conducted sessions and created teaching material, including R code, exercises, and
+					 assignments, for bachelor’s and master’s level courses on mathematical statistics, non-
+					 parametric statistics, linear models, Monte Carlo statistical methods and statistics for
+					 stochastic processes. </p>
+				  <hr class = "horiz-white">
+				</div>
+				<div class="w3-container">
+				  <h5 class="w3-text-white"><b>Data Analyst</b></h5>
+				  <i class="fa fa-calendar w3-text-orange fa-fw w3-margin-right"></i>2020 - now &nbsp; &nbsp;
+				  <i class="fa fa-university w3-text-orange fa-fw w3-margin-right"></i>Freelance - Part Time
+				  <p>I have worked on several projects as a freelance data analyst, gathering experience from a variety of fields
+				  including biostatistics, agronomy, psychology, and econometrics. Indicative examples include:
+				  <div class="w3-container">
+				  <p><i class="fa fa-arrow-right w3-text-orange fa-fw w3-margin-right"></i>Agricultural Goal Programming</p>
+				  <p>Developed an automated fertilizer mixer that optimized the proportions of specified fertilizers to produce a final
+				  blend most closely matching the target composition. The final product was an MS Excel spreadsheet in which the user could
+				  write the available fertilizers’ ingredients, the target composition and get the proportions that produced the desired result or,
+				  if not possible, the ones that produced the closest mix possible.
+				  <p><i class="fa fa-arrow-right w3-text-orange fa-fw w3-margin-right"></i>Biostatistics Cohort Study</p>
+				  <p>Analyzed the data derived from a cohort study on stroke survivors’ quality of life and the effect of personalized
+				  rehabilitation programs. The analysis, performed on SPSS, included cumulative link & binomial mixed-effects logistic
+				  modeling and mixed-effects ANOVA. The results showed the positive effect of rehabilitation in time and uncovered the
+				  underlying health conditions (hypertension) and demographic variables (marital status) that affected quality of life.
+				  <p><i class="fa fa-arrow-right w3-text-orange fa-fw w3-margin-right"></i>Crime Rate Spatial Analysis</p>
+				  <p>Worked on the cargo theft crime data of the Federal Bureau of Investigation (FBI). Created a Moran’s I cluster map
+				  that identified subareas with a high crime rate, significantly reducing the policy application cost. The final product
+				  was an interactive report created with R Markdown, leaflet and shiny.</p>
+				  </div>
+				  <hr class = "horiz-white">
+				</div>
+			</div>
+
+			<div id="Education" class="tabcontent">
+				<div class="w3-container w3-margin-top">
+				  <h5 class="w3-text-white"><b>PhD Candidate</b></h5>
+				  <p>Statistical Techniques for Crop Stage Monitoring and Prediction with Remote Sensing Data.</p>		  
+				  <i class="fa fa-calendar w3-text-orange fa-fw w3-margin-right"></i>2020 - Current &nbsp; &nbsp;
+				  <i class="fa fa-university w3-text-orange fa-fw w3-margin-right"></i>National and Kapodistrian University of Athens
+				  <hr class = "horiz-white">
+				</div>
+				<div class="w3-container">
+				  <h5 class="w3-text-white"><b>MSc of Mathematics in Statistics & Operational Research</b></h5>
+				  <i class="fa fa-calendar w3-text-orange fa-fw w3-margin-right"></i>2018 - 2020 &nbsp; &nbsp;
+				  <i class="fa fa-university w3-text-orange fa-fw w3-margin-right"></i>National and Kapodistrian University of Athens
+				  <hr class = "horiz-white">
+				</div>
+				<div class="w3-container">
+				  <h5 class="w3-text-white"><b>Bachelor of Mathematics</b></h5>
+				  <i class="fa fa-calendar w3-text-orange fa-fw w3-margin-right"></i>2013 - 2018 &nbsp; &nbsp;
+				  <i class="fa fa-university w3-text-orange fa-fw w3-margin-right"></i>National and Kapodistrian University of Athens
+				  <hr class = "horiz-white">
+				</div>
+				<div class="w3-container w3-margin-bottom">
+				  <h5 class="w3-text-white"><b>Bachelor of Music in Piano</b></h5>
+				  <i class="fa fa-calendar w3-text-orange fa-fw w3-margin-right"></i>2004 - 2016 &nbsp; &nbsp;
+				  <i class="fa fa-university w3-text-orange fa-fw w3-margin-right"></i>Kos Center of Musical Studies (T. Kamateros), Zografos Conservatory (G. Politopoulos)
+				  <br><br>
+				</div>
+			</div>
+
+			<div id="Publications" class="tabcontent">
+				<h3 class="w3-text-white"><i class="fa fa-scroll fa-fw w3-margin-right w3-xlarge w3-text-orange"></i>Papers</h3>
+				<div class="w3-container w3-margin-top">
+					<h5 class="w3-text-white"><b>Cumulative Link Mixed-Effects Models in the Service of Remote Sensing Crop Progress Monitoring</b> - 
+					<a href="https://academic.oup.com/biometrics/article/80/4/ujae137/7914211" target="_blank" class="w3-text-orange" style="text-decoration: none;">Read it here</a></h5>
+					<i class="fa fa-calendar w3-text-orange fa-fw w3-margin-right"></i>30 November 2024 &nbsp; &nbsp;
+					<i class="fa fa-university w3-text-orange fa-fw w3-margin-right"></i>Biometrics - Oxford University Press &nbsp; &nbsp;
+					<i class="fa fa-user fa-fw w3-text-orange w3-margin-right"></i>Ioannis Oikonomidis, Samis Trevezas
+					<hr class = "horiz-white">
+				</div>
+				<div class="w3-container w3-margin-bottom">
+					<h5 class="w3-text-white"><b>Moment-Type Estimators for the Dirichlet and the Multivariate Gamma Distributions</b>  - 
+					<a href="https://arxiv.org/abs/2311.15025" target="_blank" class="w3-text-orange" style="text-decoration: none;">Read it here</a></h5>
+					<i class="fa fa-calendar w3-text-orange fa-fw w3-margin-right"></i>25 November 2023 &nbsp; &nbsp;
+					<i class="fa fa-university w3-text-orange fa-fw w3-margin-right"></i>ArXiv Preprint &nbsp; &nbsp;
+					<i class="fa fa-user fa-fw w3-text-orange w3-margin-right"></i>Ioannis Oikonomidis, Samis Trevezas
+				</div>
+				<br>
+				<h3 class="w3-text-white"><i class="fa fa-computer fa-fw w3-margin-right w3-xlarge w3-text-orange"></i>Software Packages</h3>
+				<div class="w3-container">
+				  <h5 class="w3-text-white"><b>estimators - Parameter Estimation Methods in Mathematical Statistics</b></h5>
+				  <i class="fa fa-github w3-text-orange fa-fw w3-margin-right"></i><a href="https://github.com/thechibo/estimators" target="_blank" class="w3-text-orange" style="text-decoration: none;">GitHub version</a> &nbsp; &nbsp;
+				  <i class="fa fa-user fa-fw w3-text-orange w3-margin-right"></i>Ioannis Oikonomidis, Samis Trevezas
+				  <hr class = "horiz-white">
+				</div>
+				<div class="w3-container">
+				  <h5 class="w3-text-white"><b>cronus - An agricultural remote sensing database constructor</b></h5>
+				  <i class="fa fa-github w3-text-orange fa-fw w3-margin-right"></i><a href="https://github.com/agesofman/cronus" target="_blank" class="w3-text-orange" style="text-decoration: none;">GitHub version</a></h5> &nbsp; &nbsp;
+				  <i class="fa fa-user fa-fw w3-text-orange w3-margin-right"></i>Ioannis Oikonomidis, Samis Trevezas
+				  <hr class = "horiz-white">
+				</div>
+				<div class="w3-container">
+				  <h5 class="w3-text-white"><b>persephone - Remote sensing applications in crop phenology</b></h5>
+				  <i class="fa fa-github w3-text-orange fa-fw w3-margin-right"></i><a href="https://github.com/agesofman/persephone" target="_blank" class="w3-text-orange" style="text-decoration: none;">GitHub version</a> &nbsp; &nbsp;
+				  <i class="fa fa-user fa-fw w3-text-orange w3-margin-right"></i>Ioannis Oikonomidis, Samis Trevezas
+				  <hr class = "horiz-white">
+				</div>
+				<div class="w3-container">
+				  <h5 class="w3-text-white"><b>hermes - Ages of Man file storage and application execution</b></h5>
+				  <i class="fa fa-github w3-text-orange fa-fw w3-margin-right"></i><a href="https://github.com/agesofman/hermes" target="_blank" class="w3-text-orange" style="text-decoration: none;">GitHub version</a> &nbsp; &nbsp;
+				  <i class="fa fa-user fa-fw w3-text-orange w3-margin-right"></i>Ioannis Oikonomidis, Samis Trevezas
+				  <hr class = "horiz-white">
+				</div>
+				<div class="w3-container w3-margin-bottom">
+				  <h5 class="w3-text-white"><b>agesofman - Package ecosystem automated installation</b></h5>
+				  <i class="fa fa-github w3-text-orange fa-fw w3-margin-right"></i><a href="https://github.com/agesofman/agesofman" target="_blank" class="w3-text-orange" style="text-decoration: none;">GitHub version</a> &nbsp; &nbsp;
+				  <i class="fa fa-user fa-fw w3-text-orange w3-margin-right"></i>Ioannis Oikonomidis, Samis Trevezas
+				</div>
+			</div>
+
+			<div id="Scholarships" class="tabcontent">
+				<div class="w3-container w3-margin-top">
+				  <h5 class="w3-text-white"><b>Best Statistics Paper Prize for Young Statisticians</b> - 
+				  <a href="https://hub.uoa.gr/statistics-award-to-a-phd-uoa-candidate/" target="_blank" class="w3-text-orange" style="text-decoration: none;">See Announcement</a></h5>
+				  <i class="fa fa-calendar w3-text-orange fa-fw w3-margin-right"></i>2021 &nbsp; &nbsp;
+				  <i class="fa fa-university w3-text-orange fa-fw w3-margin-right"></i>Greek Statistical Institute
+				  <hr class = "horiz-white">
+				</div>
+				<div class="w3-container">
+				  <h5 class="w3-text-white"><b>PhD Scholarship </b></h5>
+				  <i class="fa fa-calendar w3-text-orange fa-fw w3-margin-right"></i>2024 - 2025 &nbsp; &nbsp;
+				  <i class="fa fa-university w3-text-orange fa-fw w3-margin-right"></i>Fanourakis Foundation
+				  <hr class = "horiz-white">
+				</div>
+				<div class="w3-container">
+				  <h5 class="w3-text-white"><b>PhD Scholarship </b></h5>
+				  <i class="fa fa-calendar w3-text-orange fa-fw w3-margin-right"></i>2021 - 2023 &nbsp; &nbsp;
+				  <i class="fa fa-university w3-text-orange fa-fw w3-margin-right"></i>Bodossaki Foundation
+				  <hr class = "horiz-white">
+				</div>
+				<div class="w3-container w3-margin-bottom">
+				  <h5 class="w3-text-white"><b>Master’s Degree Scholarship </b></h5>
+				  <i class="fa fa-calendar w3-text-orange fa-fw w3-margin-right"></i>2019 - 2020 &nbsp; &nbsp;
+				  <i class="fa fa-university w3-text-orange fa-fw w3-margin-right"></i>Bodossaki Foundation
+				</div>
+			</div>
+
+			<div id="Conferences" class="tabcontent">
+				<div class="w3-container w3-margin-top">
+				  <h5 class="w3-text-white"><b>Regression Methods Adapted to Large-Scale Prediction of Crop Development Using Remote Sensing Data</b></h5>
+				  <i class="fa fa-calendar w3-text-orange fa-fw w3-margin-right"></i>11 December 2023 &nbsp; &nbsp;
+				  <i class="fa fa-university w3-text-orange fa-fw w3-margin-right"></i>Department of Mathematics, University of Patras - <b>Invited Talk</b> &nbsp; &nbsp;
+				  <i class="fa fa-user fa-fw w3-text-orange w3-margin-right"></i>Ioannis Oikonomidis, Samis Trevezas
+				  <hr class = "horiz-white">
+				</div>
+				<div class="w3-container">
+				  <h5 class="w3-text-white"><b>A Remote Sensing Application of Generalized Linear Mixed-Effects Models in Crop Phenology Prediction</b></h5>
+				  <i class="fa fa-calendar w3-text-orange fa-fw w3-margin-right"></i>7-10 June 2023 &nbsp; &nbsp;
+				  <i class="fa fa-university w3-text-orange fa-fw w3-margin-right"></i>International Workshop on Applied Probability (IWAP) &nbsp; &nbsp;
+				  <i class="fa fa-user fa-fw w3-text-orange w3-margin-right"></i>Ioannis Oikonomidis, Samis Trevezas
+				  <hr class = "horiz-white">
+				</div>
+				<div class="w3-container">
+				  <h5 class="w3-text-white"><b>The Method of Moments vs Maximum Likelihood  An overestimated difference?</b></h5>
+				  <i class="fa fa-calendar w3-text-orange fa-fw w3-margin-right"></i>25-28 May 2023 &nbsp; &nbsp;
+				  <i class="fa fa-university w3-text-orange fa-fw w3-margin-right"></i>Greek Statistical Institute (GSI) &nbsp; &nbsp;
+				  <i class="fa fa-user fa-fw w3-text-orange w3-margin-right"></i>Ioannis Oikonomidis, Samis Trevezas
+				  <hr class = "horiz-white">
+				</div>
+				<div class="w3-container">
+				  <h5 class="w3-text-white"><b>Modeling the Variability of an Arabidopsis Thaliana Population with the Greenlab Model</b></h5>
+				  <i class="fa fa-calendar w3-text-orange fa-fw w3-margin-right"></i>19-22 May 2022 &nbsp; &nbsp;
+				  <i class="fa fa-university w3-text-orange fa-fw w3-margin-right"></i>Greek Statistical Institute (GSI) &nbsp; &nbsp;
+				  <i class="fa fa-user fa-fw w3-text-orange w3-margin-right"></i>Ioannis Oikonomidis, Samis Trevezas
+				  <hr class = "horiz-white">
+				</div>
+				<div class="w3-container">
+				  <h5 class="w3-text-white"><b>An Introduction to Statistics – A Case Study in Education</b></h5>
+				  <i class="fa fa-calendar w3-text-orange fa-fw w3-margin-right"></i>9-10 October 2021 &nbsp; &nbsp;
+				  <i class="fa fa-university w3-text-orange fa-fw w3-margin-right"></i>Conference on Informatics in Education (CIE) &nbsp; &nbsp;
+				  <i class="fa fa-user fa-fw w3-text-orange w3-margin-right"></i>Ioannis Oikonomidis, Margarita Karaliopoulou
+				  <hr class = "horiz-white">
+				</div>
+				<div class="w3-container">
+				  <h5 class="w3-text-white"><b>Regression-Type Approaches for Prediction of Crop Stage Percentages</b></h5>
+				  <i class="fa fa-calendar w3-text-orange fa-fw w3-margin-right"></i>23-26 September 2021 &nbsp; &nbsp;
+				  <i class="fa fa-university w3-text-orange fa-fw w3-margin-right"></i>Greek Statistical Institute (GSI) &nbsp; &nbsp;
+				  <i class="fa fa-user fa-fw w3-text-orange w3-margin-right"></i>Ioannis Oikonomidis, Samis Trevezas
+				  <hr class = "horiz-white">
+				</div>
+				<div class="w3-container w3-margin-bottom">
+				  <h5 class="w3-text-white"><b>A Comparison of Hidden Markov and Regression Models on Crop Stage Percentages Prediction</b></h5>
+				  <i class="fa fa-calendar w3-text-orange fa-fw w3-margin-right"></i>1-4 June 2021 &nbsp; &nbsp;
+				  <i class="fa fa-university w3-text-orange fa-fw w3-margin-right"></i>Applied Stochastic Models and Data Analysis International Society (ASMDA) &nbsp; &nbsp;
+				  <i class="fa fa-user fa-fw w3-text-orange w3-margin-right"></i>Ioannis Oikonomidis, Samis Trevezas
+				</div>
+			</div>
+
+			<div id="Skills" class="tabcontent">
+				<div class="w3-container w3-margin-top">
+				  <h5 class="w3-text-white"><i class="fa fa-globe fa-fw w3-margin-right w3-large w3-text-orange"></i><b>Languages</b></h5>
+				  Greek (Mother Language), English (B2), German (B1)
+				  <hr class = "horiz-white">
+				</div>
+				<div class="w3-container">
+				  <h5 class="w3-text-white"><i class="fa fa-motorcycle fa-fw w3-margin-right w3-large w3-text-orange"></i><b>Driving License</b></h5>
+				  Car (Category B), Motorcycle (Category A2)
+				  <hr class = "horiz-white">
+				</div>
+				<div class="w3-container w3-margin-bottom">
+				  <h5 class="w3-text-white"><i class="fa fa-computer fa-fw w3-margin-right w3-large w3-text-orange"></i><b>Software & Programming Languages</b></h5>
+				  R, Julia, MATLAB, jamovi, SPSS, Microsoft Office, HTML & CSS, LaTeX
+				</div>
+				<br>
+				<h3 class="w3-text-white"><i class="fa fa-certificate fa-fw w3-margin-right w3-xlarge w3-text-orange"></i>Seminars Attended</h3>
+				<div class="w3-container">
+				  <h5 class="w3-text-white"><b>The Ultimate Git Course</b></h5>
+				  <p>Online specialization in Git and GitHub.</p>
+				  <i class="fa fa-calendar w3-text-orange fa-fw w3-margin-right"></i>April 2022 &nbsp; &nbsp;
+				  <i class="fa fa-university w3-text-orange fa-fw w3-margin-right"></i>Code with Mosh
+				  <hr class = "horiz-white">
+				</div>
+				<div class="w3-container">
+				  <h5 class="w3-text-white"><b>Data Visualization</b></h5>
+				  <p>Online course in data visualization with RAWGraphs and SAS.</p>
+				  <i class="fa fa-calendar w3-text-orange fa-fw w3-margin-right"></i>25-26 September 2021 &nbsp; &nbsp;
+				  <i class="fa fa-university w3-text-orange fa-fw w3-margin-right"></i>Greek Statistical Institute (GSI)
+				  <hr class = "horiz-white">
+				</div>
+				<div class="w3-container">
+				  <h5 class="w3-text-white"><b>Introduction to Julia</b></h5>
+				  <p>Online course in Julia programming language.</p>
+				  <i class="fa fa-calendar w3-text-orange fa-fw w3-margin-right"></i>2 September 2021 &nbsp; &nbsp;
+				  <i class="fa fa-university w3-text-orange fa-fw w3-margin-right"></i>Julia Academy
+				  <hr class = "horiz-white">
+				</div>
+				<div class="w3-container">
+				  <h5 class="w3-text-white"><b>Data Visualization & Dashboarding with R</b></h5>
+				  <p>Online specialization in advanced data visualization tools (ggplot2, plotly, shiny) with R, involving peer-reviewed assignments</p>
+				  <i class="fa fa-calendar w3-text-orange fa-fw w3-margin-right"></i>2020 - 2021 &nbsp; &nbsp;
+				  <i class="fa fa-university w3-text-orange fa-fw w3-margin-right"></i>John Hopkins University
+				  <hr class = "horiz-white">
+				</div>
+				<div class="w3-container">
+				  <h5 class="w3-text-white"><b>Mastering Software Development in R</b></h5>
+				  <p>Online specialization in object-oriented programming, data visualization tools and package building with R, involving peer-reviewed assignments.</p>
+				  <i class="fa fa-calendar w3-text-orange fa-fw w3-margin-right"></i>2019 - 2020 &nbsp; &nbsp;
+				  <i class="fa fa-university w3-text-orange fa-fw w3-margin-right"></i>John Hopkins University
+				  <hr class = "horiz-white">
+				</div>
+				<div class="w3-container">
+				  <h5 class="w3-text-white"><b>Deep Learning with MATLAB</b></h5>
+				  <i class="fa fa-calendar w3-text-orange fa-fw w3-margin-right"></i>19 December 2019 &nbsp; &nbsp;
+				  <i class="fa fa-university w3-text-orange fa-fw w3-margin-right"></i>MENTOR Hellas, Scientific Engineering Software
+				  <hr class = "horiz-white">
+				</div>
+			</div>
+
+			<div id="Hobbies" class="tabcontent">
+				<div class="w3-container w3-margin-top">
+				  <h5 class="w3-text-white"><i class="fa fa-dice fa-fw w3-margin-right w3-large w3-text-orange"></i><b>Board Games - RPG Games</b></h5>
+				  I love board games and role-playing games such as Pathfinder and Dungeons & Dragons! I also enjoy PC games such as Divinity and Baldur's Gate. Roll initiative.
+				  <hr class = "horiz-white">
+				</div>
+				<div class="w3-container">
+				  <h5 class="w3-text-white"><i class="fa fa-music fa-fw w3-margin-right w3-large w3-text-orange"></i><b>Piano</b></h5>
+				  Even though I do not play as much as I used to, this remains one of my most valuable getaways. My favorite classical composers are Chopin and Beethoven.
+				  <hr class = "horiz-white">
+				</div>
+				<div class="w3-container w3-margin-bottom">
+				  <h5 class="w3-text-white"><i class="fa fa-house-medical-flag fa-fw w3-margin-right w3-large w3-text-orange"></i><b>Hellenic Red Cross Volunteer</b></h5>
+				  I am a volunteer Samaritan and a Basic Life Support trainer at the Hellenic Red Cross, an organization dedicated to offering emergency medical aid, responding to disasters, and providing community health services.
+				  Check their <a href="https://www.samarites.gr/" target="_blank" class="w3-text-orange" style="text-decoration: none;">official website.</a>
+				</div>
+			</div>
+		</div>
+	  
+	<!-- End page content -->
+	</div>
+
+	<script>
+	// Get the element with id="defaultOpen" and click on it
+	document.getElementById("defaultOpen").click();
+
+	function openCity(evt, cityName) {
+	  // Declare all variables
+	  var i, tabcontent, tablinks;
+
+	  // Get all elements with class="tabcontent" and hide them
+	  tabcontent = document.getElementsByClassName("tabcontent");
+	  for (i = 0; i < tabcontent.length; i++) {
+		tabcontent[i].style.display = "none";
+	  }
+
+	  // Get all elements with class="tablinks" and remove the class "active"
+	  tablinks = document.getElementsByClassName("tablinks");
+	  for (i = 0; i < tablinks.length; i++) {
+		tablinks[i].className = tablinks[i].className.replace(" active", "");
+	  }
+
+	  // Show the current tab, and add an "active" class to the button that opened the tab
+	  document.getElementById(cityName).style.display = "block";
+	  evt.currentTarget.className += " active";
+	} 
+	</script>
+
+	<script>
+	// Script to open and close sidebar
+	function w3_open() {
+		document.getElementById("mySidebar").style.display = "block";
+		document.getElementById("myOverlay").style.display = "block";
+	}
+	 
+	function w3_close() {
+		document.getElementById("mySidebar").style.display = "none";
+		document.getElementById("myOverlay").style.display = "none";
+	}
+	</script>
+
+</body>
+</html>

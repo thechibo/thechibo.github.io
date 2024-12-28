@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html>
+
+<title>Ioannis Oikonomidis - Toolbox</title>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="icon" type="image/x-icon" href="../figures/favicon_d20.ico">
+<link rel="stylesheet" href="../css/w1.css">
+<link rel="stylesheet" href="../css/w3.css">
+<link rel="stylesheet" href="../css/mycss.css">
+<link rel="stylesheet" href="../css/fontawesome/css/all.css">
+<link rel="stylesheet" href="../css/fontawesome/css/v4-shims.css">
+
+<body class="w3-black w3-content" style="max-width:1600px">
+
+	<!-- Sidebar/menu -->
+	<nav class="w3-sidebar w3-collapse w3-black" style="z-index:3;width:300px;" id="mySidebar"><br>
+		<div class="w3-container">
+			<a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
+			  <i class="fa fa-remove"></i>
+			</a>
+			<img src="../figures/me.jpg" style="width:45%;" class="w3-round"><br><br>
+			<h4><b>Ioannis Oikonomidis</b></h4>
+			<p class="w3-text-white">Mathematician - Statistician<br>
+			PhD Candidate</p>
+		</div>
+		<div class="w3-bar-block">
+			<h5 class="w3-bar-item w3-padding w3-text"><i class="fa fa-envelope fa-fw w3-margin-right w3-text-orange"></i>goikon&commat;math&period;uoa&period;gr</h5>
+			<h5 class="w3-bar-item w3-padding w3-text"><i class="fa fa-linkedin fa-fw w3-margin-right w3-text-orange"></i><a class="menu-a" href="https://www.linkedin.com/in/goikon/">Ioannis Oikonomidis</a></h5>
+			<h5 class="w3-bar-item w3-padding w3-text"><i class="fa fa-github fa-fw w3-margin-right w3-text-orange"></i><a class="menu-a" href="https://github.com/thechibo">thechibo</a></h5>
+			<h5 class="w3-bar-item w3-padding w3-text"><i class="fa fa-brands fa-orcid fa-fw w3-margin-right w3-text-orange"></i><a class="menu-a" href="https://orcid.org/my-orcid?orcid=0000-0001-8130-2104">0000-0001-8130-2104</a></h5>
+			<h6 class="w3-bar-item w3-padding w3-text">Office No. 108 <br> Department of Mathematics <br> University of Athens <br> Zografos 15784, Greece
+				<br><br>
+				Last Update: December 2024
+			</h6>
+		</div>
+	</nav>
+
+	<!-- Overlay effect when opening sidebar on small screens -->
+	<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+	<!-- !PAGE CONTENT! -->
+	<div class="w3-main" style="margin-left:300px">
+
+		<!-- Header -->
+		<header id="portfolio">
+			<a href="#"><img src="../figures/me.jpg" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
+			<span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+			<div class="w3-container">
+				<div class="w3-section w3-padding-16">
+				  <a href="../index.html"><button class="w3-button w3-black"><i class="fa fa-home w3-margin-right"></i>Home</button></a>
+				  <a href="toolbox.html"><button class="w3-button w3-orange"><i class="fa fa-wrench w3-margin-right"></i>Toolbox</button></a>
+				  <a href="aboutme.html"><button class="w3-button w3-black"><i class="fa fa-user w3-margin-right"></i>About Me</button></a>
+				</div>
+			</div>
+		</header>
+	  
+		<div class="w3-container w3-padding" style="margin-bottom:32px">
+		
+			<h2 class="w3-text-white"><i class="fa fa-wrench fa-fw w3-margin-right w3-xxlarge w3-text-orange"></i>Toolbox</h2>
+			
+			<div class="w3-container">
+				<p>Science is demanding by nature, and the right tools can make a significant difference in productivity. 
+					This toolbox was created to streamline work processes, automate repetitive tasks, and generally 
+					manage projects efficiently. May you find something useful!</p>
+			</div>
+			<br>
+			
+			<div class="tab">
+				<button class="tablinks" onclick="openCity(event, 'Coding')" id="defaultOpen">
+					<i class="fa fa-code fa-fw w3-margin-right w3-xlarge w3-text-orange"></i>Coding
+				</button>
+				<button class="tablinks" onclick="openCity(event, 'Text')">
+					<i class="fa fa-paper-plane fa-fw w3-margin-right w3-xlarge w3-text-orange"></i>Text Composition
+				</button>
+				<button class="tablinks" onclick="openCity(event, 'Databases')">
+					<i class="fa fa-database fa-fw w3-margin-right w3-xlarge w3-text-orange"></i>Databases
+				</button>
+				<!--
+				<button class="tablinks" onclick="openCity(event, 'MyMaterial')">
+					<i class="fa fa-clipboard fa-fw w3-margin-right w3-xlarge w3-text-orange"></i>My Material
+				</button>
+				-->
+			</div>
+				
+			<div id="Coding" class="tabcontent">
+				<div class="w3-container w3-margin-top">
+					<h5 class="w3-text-white"><b>R Programming Language</b></h5>
+					<h6 class="w3-text-orange"><i class="fa fa-desktop fa-fw w3-margin-right"></i>
+						<a href="https://www.r-project.org/" style="text-decoration: none;">The R Project for Statistical Computing</a>
+					</h6>
+					<h6 class="w3-text-orange"><i class="fa fa-desktop fa-fw w3-margin-right"></i>
+						<a href="https://posit.co/download/rstudio-desktop/" style="text-decoration: none;">RStudio Desktop</a>
+					</h6>
+					<h6 class="w3-text-orange"><i class="fa fa-desktop fa-fw w3-margin-right"></i>
+						<a href="https://www.jamovi.org/" style="text-decoration: none;">jamovi</a>
+					</h6>		
+					<h6 class="w3-text-orange"><i class="fa fa-newspaper-o fa-fw w3-margin-right"></i>
+						<a href="https://rpubs.com/" style="text-decoration: none;">RPubs: Easy web publishing from R</a>
+					</h6>
+					<h6 class="w3-text-orange"><i class="fa fa-newspaper-o fa-fw w3-margin-right"></i>
+						<a href="https://www.shinyapps.io/" style="text-decoration: none;">shinyapps.io: Share your Shiny Applications Online</a>
+					</h6>
+					<h6 class="w3-text-orange"><i class="fa fa-book fa-fw w3-margin-right"></i>
+						<a href="https://r4ds.had.co.nz/" style="text-decoration: none;">R for Data Science, by Hadley Wickham and Garrett Grolemund</a>
+					</h6>
+					<h6 class="w3-text-orange"><i class="fa fa-book fa-fw w3-margin-right"></i>
+						<a href="https://adv-r.hadley.nz/" style="text-decoration: none;">Advanced R, by Hadley Wickham</a>
+					</h6>
+					<h6 class="w3-text-orange"><i class="fa fa-book fa-fw w3-margin-right"></i>
+						<a href="https://r-pkgs.org/" style="text-decoration: none;">R Packages, by Hadley Wickham and Jenny Bryan</a>
+					</h6>
+					<h6 class="w3-text-orange"><i class="fa fa-book fa-fw w3-margin-right"></i>
+						<a href="https://mastering-shiny.org/index.html" style="text-decoration: none;">Mastering Shiny, by Hadley Wickham</a>
+					</h6>
+					<h6 class="w3-text-orange"><i class="fa fa-book fa-fw w3-margin-right"></i>
+						<a href="https://bookdown.org/yihui/rmarkdown/" style="text-decoration: none;">R Markdown: The Definitive Guide, by Yihui Xie, J. J. Allaire, Garrett Grolemund</a>
+					</h6>
+					<h6 class="w3-text-orange"><i class="fa fa-book fa-fw w3-margin-right"></i>
+						<a href="https://bookdown.org/yihui/bookdown/" style="text-decoration: none;">bookdown: Authoring Books and Technical Documents with R Markdown, by Yihui Xie</a>
+					</h6>
+					<h6 class="w3-text-orange"><i class="fa fa-paperclip fa-fw w3-margin-right"></i>
+						<a href="https://style.tidyverse.org/index.html" style="text-decoration: none;">The tidyverse Style Guide</a>
+					</h6>
+					<h6 class="w3-text-orange"><i class="fa fa-paperclip fa-fw w3-margin-right"></i>
+						<a href="https://posit.co/resources/cheatsheets/" style="text-decoration: none;">Cheatsheets</a>
+					</h6>
+					<h6 class="w3-text-orange"><i class="fa fa-bar-chart fa-fw w3-margin-right"></i>
+						<a href="https://r-graph-gallery.com/" style="text-decoration: none;">The R Graph Gallery</a>
+					</h6>
+					<h6 class="w3-text-orange"><i class="fa fa-bar-chart fa-fw w3-margin-right"></i>
+						<a href="https://yutannihilation.github.io/allYourFigureAreBelongToUs/ggthemes/" style="text-decoration: none;">ggthemes Gallery</a>
+					</h6>
+					<h6 class="w3-text-orange"><i class="fa fa-bar-chart fa-fw w3-margin-right"></i>
+						<a href="https://shiny.rstudio.com/gallery/" style="text-decoration: none;">Shiny Gallery</a>
+					</h6>
+					<h6 class="w3-text-orange"><i class="fa fa-bar-chart fa-fw w3-margin-right"></i>
+						<a href="https://rstudio.github.io/shinythemes/" style="text-decoration: none;">Shiny Themes</a>
+					</h6>
+					<h6 class="w3-text-orange"><i class="fa fa-video-camera fa-fw w3-margin-right"></i>
+						<a href="https://shiny.rstudio.com/tutorial/" style="text-decoration: none;">Shiny Tutorial</a>
+					</h6>
+					<hr class = "horiz-white">
+				</div>
+				<div class="w3-container">
+					<h5 class="w3-text-white"><b>The Julia Programming Language</b></h5>
+					<h6 class="w3-text-orange"><i class="fa fa-desktop fa-fw w3-margin-right"></i>
+						<a href="https://julialang.org/" style="text-decoration: none;">The Julia Programming Language</a>
+					</h6>
+					<h6 class="w3-text-orange"><i class="fa fa-desktop fa-fw w3-margin-right"></i>
+						<a href="https://visualstudio.microsoft.com/vs/" style="text-decoration: none;">Visual Studio</a>
+					</h6>
+					<h6 class="w3-text-orange"><i class="fa fa-paperclip fa-fw w3-margin-right"></i>
+						<a href="https://docs.julialang.org/en/v1/" style="text-decoration: none;">Julia Documentation</a>
+					</h6>
+					<h6 class="w3-text-orange"><i class="fa fa-video-camera fa-fw w3-margin-right"></i>
+						<a href="https://juliaacademy.com/courses" style="text-decoration: none;">Julia Academy</a>
+					</h6>
+					<h6 class="w3-text-orange"><i class="fa fa-video-camera fa-fw w3-margin-right"></i>
+						<a href="https://computationalthinking.mit.edu/Spring21/" style="text-decoration: none;">MIT: Introduction to Computational Thinking</a>
+					</h6>
+					<h6 class="w3-text-orange"><i class="fa fa-video-camera fa-fw w3-margin-right"></i>
+						<a href="https://www.youtube.com/user/JuliaLanguage/playlists" style="text-decoration: none;">The Julia Programming Language's Youtube Channel</a>
+					</h6>
+					<hr class = "horiz-white">
+				</div>
+				<div class="w3-container">
+					<h5 class="w3-text-white"><b>Git</b></h5>
+					<h6 class="w3-text-orange"><i class="fa fa-desktop fa-fw w3-margin-right"></i>
+						<a href="https://git-scm.com/" style="text-decoration: none;">Git Official Website</a>
+					</h6>
+					<h6 class="w3-text-orange"><i class="fa fa-desktop fa-fw w3-margin-right"></i>
+						<a href="https://github.com/" style="text-decoration: none;">GitHub Official Website</a>
+					</h6>
+					<h6 class="w3-text-orange"><i class="fa fa-desktop fa-fw w3-margin-right"></i>
+						<a href="https://about.gitlab.com/" style="text-decoration: none;">GitLab Official Website</a>
+					</h6>
+					<h6 class="w3-text-orange"><i class="fa fa-video-camera fa-fw w3-margin-right"></i>
+						<a href="https://www.youtube.com/watch?v=8JJ101D3knE" style="text-decoration: none;">Git Tutorial for Beginners: Learn Git in 1 Hour, by Mosh Hamedani</a>
+					</h6>
+					<hr class = "horiz-white">
+				</div>
+				<div class="w3-container">
+					<h5 class="w3-text-white"><b>Generative AI</b></h5>
+					<h6 class="w3-text-orange"><i class="fa fa-desktop fa-fw w3-margin-right"></i>
+						<a href="https://www.perplexity.ai/" style="text-decoration: none;">Perplexity</a>
+					</h6>
+					<h6 class="w3-text-orange"><i class="fa fa-desktop fa-fw w3-margin-right"></i>
+						<a href="https://chat.openai.com/chat" style="text-decoration: none;">ChatGPT</a>
+					</h6>
+					<h6>
+						<a href="https://perchance.org/ai-text-to-image-generator" class="w3-text-orange" style="text-decoration: none;">
+						<i class="fa fa-desktop fa-fw w3-margin-right"></i>Perchance</a>
+					</h6>
+					<hr class = "horiz-white">
+				</div>
+				<div class="w3-container">
+					<h5 class="w3-text-white"><b>Other Software Packages</b></h5>
+					<h6 class="w3-text-orange"><i class="fa fa-desktop fa-fw w3-margin-right"></i>
+						<a href="https://www.sas.com/el_gr/home.html" style="text-decoration: none;">SAS</a>
+					</h6>
+					<h6 class="w3-text-orange"><i class="fa fa-desktop fa-fw w3-margin-right"></i>
+						<a href="https://www.rawgraphs.io/" style="text-decoration: none;">RAWGraphs</a>
+					</h6>
+					<br>
+				</div>
+			</div>
+					
+			<div id="Text" class="tabcontent">
+				<div class="w3-container w3-margin-top">
+					<h5 class="w3-text-white"><b>Office 365</b></h5>
+					<h6 class="w3-text-orange"><i class="fa fa-desktop fa-fw w3-margin-right"></i>
+						<a href="https://o365.uoa.gr/" style="text-decoration: none;">Office 365 Registration Page - University of Athens</a>
+					</h6>
+					<h6 class="w3-text-orange"><i class="fa fa-desktop fa-fw w3-margin-right"></i>
+						<a href="https://login.microsoftonline.com" style="text-decoration: none;">Office 365 Login Page</a>
+					</h6>
+					<h6 class="w3-text-orange"><i class="fa fa-desktop fa-fw w3-margin-right"></i>
+						<a href="http://www.noc.uoa.gr/yphresies-cloud-tritwn/microsoft-office365-education.html" style="text-decoration: none;">IT Department Help Page - University of Athens</a>
+					</h6>
+					<hr class = "horiz-white">
+				</div>
+				<div class="w3-container">
+					<h5 class="w3-text-white"><b>Overleaf</b></h5>
+					<h6 class="w3-text-orange"><i class="fa fa-desktop fa-fw w3-margin-right"></i>
+						<a href="https://www.overleaf.com/" style="text-decoration: none;">Overleaf Official Website</a> - Online LaTeX Editor
+					</h6>
+					<hr class = "horiz-white">
+				</div>
+				<div class="w3-container">
+					<h5 class="w3-text-white"><b>Grammarly</b></h5>
+					<h6 class="w3-text-orange"><i class="fa fa-desktop fa-fw w3-margin-right"></i>
+						<a href="https://www.grammarly.com/" style="text-decoration: none;">Grammarly Official Website</a>
+					</h6>
+					<hr class = "horiz-white">
+				</div>
+				<div class="w3-container">
+					<h5 class="w3-text-white"><b>Search Engines</b></h5>
+					<h6 class="w3-text-orange"><i class="fa fa-desktop fa-fw w3-margin-right"></i>
+						<a href="https://scholar.google.com/" style="text-decoration: none;">Google Scholar Search Engine</a>
+					</h6>
+					<h6 class="w3-text-orange"><i class="fa fa-desktop fa-fw w3-margin-right"></i>
+						<a href="https://www.researchgate.net/" style="text-decoration: none;">ResearchGate Search Engine</a>
+					</h6>
+					<h6>
+						<a href="https://en.wikipedia.org/wiki/Main_Page" class="w3-text-orange" style="text-decoration: none;">
+						<i class="fa fa-desktop fa-fw w3-margin-right"></i>Wikipedia</a>
+					</h6>
+					<hr class = "horiz-white">
+				</div>
+				<div class="w3-container">
+					<h5 class="w3-text-white"><b>Mendeley</b></h5>
+					<h6 class="w3-text-orange"><i class="fa fa-desktop fa-fw w3-margin-right"></i>
+						<a href="https://www.mendeley.com/reference-management/reference-manager/" style="text-decoration: none;">Mendeley Reference Manager</a>
+					</h6>
+					<h6 class="w3-text-orange"><i class="fa fa-video-camera fa-fw w3-margin-right"></i>
+						<a href="https://www.youtube.com/watch?v=faXhRz_mVVI" style="text-decoration: none;">Author and Mendeley workshop, University of Athens</a>
+					</h6>
+					<br>
+				</div>
+			</div>
+			
+			<div id="Databases" class="tabcontent">
+				<div class="w3-container w3-margin-top">
+					<h5 class="w3-text-white"><b>General</b></h5>
+					<h6 class="w3-text-orange"><i class="fa fa-street-view fa-fw w3-margin-right"></i>
+						<a href="https://ourworldindata.org/" style="text-decoration: none;">Our World in Data</a>
+					</h6>
+					<h6 class="w3-text-orange"><i class="fa fa-street-view fa-fw w3-margin-right"></i>
+						<a href="https://www.kaggle.com/datasets" style="text-decoration: none;">kaggle Datasets</a>
+					</h6>
+					<hr class = "horiz-white">
+					<h5 class="w3-text-white"><b>Government</b></h5>
+					<h6 class="w3-text-orange"><i class="fa fa-university fa-fw w3-margin-right"></i>
+						<a href="https://data.europa.eu/en" style="text-decoration: none;">European Commission</a>
+					</h6>
+					<h6 class="w3-text-orange"><i class="fa fa-university fa-fw w3-margin-right"></i>
+						<a href="https://data.gov/" style="text-decoration: none;">data.gov: U.S. Government's Open Data</a>
+					</h6>
+					<h6 class="w3-text-orange"><i class="fa fa-university fa-fw w3-margin-right"></i>
+						<a href="https://www.census.gov/data.html" style="text-decoration: none;">US Census Bureau</a>
+					</h6>
+					<h6 class="w3-text-orange"><i class="fa fa-university fa-fw w3-margin-right"></i>
+						<a href="https://bjs.ojp.gov/data/topic" style="text-decoration: none;">US Bureau of Justice Statistics</a>
+					</h6>
+					<hr class = "horiz-white">
+					<h5 class="w3-text-white"><b>Health</b></h5>
+					<h6 class="w3-text-orange"><i class="fa fa-heartbeat fa-fw w3-margin-right"></i>
+						<a href="https://www.who.int/data" style="text-decoration: none;">World Health Organization</a>
+					</h6>
+					<h6 class="w3-text-orange"><i class="fa fa-heartbeat fa-fw w3-margin-right"></i>
+						<a href="https://data.unicef.org/" style="text-decoration: none;">UNICEF Data: Monitoring the situation of children and women</a>
+					</h6>
+					<h6 class="w3-text-orange"><i class="fa fa-heartbeat fa-fw w3-margin-right"></i>
+						<a href="https://healthdata.gov/" style="text-decoration: none;">US Healthdata.gov</a>
+					</h6>
+					<hr class = "horiz-white">
+					<h5 class="w3-text-white"><b>Financial</b></h5>
+					<h6 class="w3-text-orange"><i class="fa fa-usd fa-fw w3-margin-right"></i>
+						<a href="https://data.worldbank.org/" style="text-decoration: none;">World Bank Open Data</a>
+					</h6>
+					<h6 class="w3-text-orange"><i class="fa fa-usd fa-fw w3-margin-right"></i>
+						<a href="https://databank.worldbank.org/reports.aspx?source=world-development-indicators" style="text-decoration: none;">World Development Indicators Database</a>
+					</h6>
+					<h6 class="w3-text-orange"><i class="fa fa-usd fa-fw w3-margin-right"></i>
+						<a href="https://www.imf.org/en/Data" style="text-decoration: none;">International Monetary Fund</a>
+					</h6>
+					<hr class = "horiz-white">
+					<h5 class="w3-text-white"><b>Agricultural</b></h5>
+					<h6 class="w3-text-orange"><i class="fa fa-leaf fa-fw w3-margin-right"></i>
+						<a href="https://quickstats.nass.usda.gov/" style="text-decoration: none;">NASS Quick Stats</a>
+					</h6>
+					<h6 class="w3-text-orange"><i class="fa fa-leaf fa-fw w3-margin-right"></i>
+						<a href="https://croplandcros.scinet.usda.gov/" style="text-decoration: none;">NASS CroplandCROS: Cropland Data Layer</a>
+					</h6>
+					<h6 class="w3-text-orange"><i class="fa fa-leaf fa-fw w3-margin-right"></i>
+						<a href="https://daac.ornl.gov/DAYMET/guides/Daymet_V3_CFMosaics.html" style="text-decoration: none;">Daymet: Daily Surface Weather Data on a 1-km Grid for North America</a>
+					</h6>
+					<br>
+				</div>
+			</div>
+			
+			<!--
+			<div id="MyMaterial" class="tabcontent">
+				<a href="../files/cv.pdf" target="_blank" download="Ioannis Oikonomidis Resume">
+				  <button type="submit" class="w3-button w3-orange w3-padding-large w3-margin">
+					<i class="fa fa-download w3-large w3-margin-right"></i>Mathematical Statistics<br>
+					<div class="w3-small">Something to love</div>
+				  </button>
+				</a>
+				<a href="../files/cv.pdf" target="_blank" download="Ioannis Oikonomidis - Resume">
+				  <button type="submit" class="w3-button w3-orange w3-padding-large w3-margin">
+					<i class="fa fa-download w3-margin-right"></i>Linear Models
+				  </button>
+				</a>
+			</div>
+			-->
+			
+		</div>
+			
+	<!-- End page content -->
+	</div>
+
+	<script>
+	// Script to open and close section tabs
+	var coll = document.getElementsByClassName("collapsible");
+	var i;
+
+	for (i = 0; i < coll.length; i++) {
+	  coll[i].addEventListener("click", function() {
+		this.classList.toggle("active");
+		var content = this.nextElementSibling;
+		if (content.style.maxHeight){
+		  content.style.maxHeight = null;
+		} else {
+		  content.style.maxHeight = content.scrollHeight + "px";
+		} 
+	  });
+	}
+	</script>
+
+	<script>
+	// Get the element with id="defaultOpen" and click on it
+	document.getElementById("defaultOpen").click();
+
+	function openCity(evt, cityName) {
+	  // Declare all variables
+	  var i, tabcontent, tablinks;
+
+	  // Get all elements with class="tabcontent" and hide them
+	  tabcontent = document.getElementsByClassName("tabcontent");
+	  for (i = 0; i < tabcontent.length; i++) {
+		tabcontent[i].style.display = "none";
+	  }
+
+	  // Get all elements with class="tablinks" and remove the class "active"
+	  tablinks = document.getElementsByClassName("tablinks");
+	  for (i = 0; i < tablinks.length; i++) {
+		tablinks[i].className = tablinks[i].className.replace(" active", "");
+	  }
+
+	  // Show the current tab, and add an "active" class to the button that opened the tab
+	  document.getElementById(cityName).style.display = "block";
+	  evt.currentTarget.className += " active";
+	} 
+	</script>
+	
+	<script>
+	// Script to open and close sidebar
+	function w3_open() {
+		document.getElementById("mySidebar").style.display = "block";
+		document.getElementById("myOverlay").style.display = "block";
+	}
+	 
+	function w3_close() {
+		document.getElementById("mySidebar").style.display = "none";
+		document.getElementById("myOverlay").style.display = "none";
+	}
+	</script>
+
+</body>
+</html>

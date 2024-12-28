@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+
+<title>Ioannis Oikonomidis - Toolbox</title>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="icon" type="image/x-icon" href="../figures/favicon_d20.ico">
+<link rel="stylesheet" href="../css/w1.css">
+<link rel="stylesheet" href="../css/w3.css">
+<link rel="stylesheet" href="../css/mycss.css">
+<link rel="stylesheet" href="../css/fontawesome/css/all.css">
+<link rel="stylesheet" href="../css/fontawesome/css/v4-shims.css">
+
+<body class="w3-black w3-content" style="max-width:1600px">
+
+	<!-- Sidebar/menu -->
+	<nav class="w3-sidebar w3-collapse w3-black" style="z-index:3;width:300px;" id="mySidebar"><br>
+		<div class="w3-container">
+			<a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
+			  <i class="fa fa-remove"></i>
+			</a>
+			<img src="../figures/me.jpg" style="width:45%;" class="w3-round"><br><br>
+			<h4><b>Ioannis Oikonomidis</b></h4>
+			<p class="w3-text-white">Mathematician - Statistician<br>
+			PhD Candidate</p>
+		</div>
+		<div class="w3-bar-block">
+			<h5 class="w3-bar-item w3-padding w3-text"><i class="fa fa-envelope fa-fw w3-margin-right w3-text-orange"></i>goikon&commat;math&period;uoa&period;gr</h5>
+			<h5 class="w3-bar-item w3-padding w3-text"><i class="fa fa-linkedin fa-fw w3-margin-right w3-text-orange"></i><a class="menu-a" href="https://www.linkedin.com/in/goikon/">Ioannis Oikonomidis</a></h5>
+			<h5 class="w3-bar-item w3-padding w3-text"><i class="fa fa-github fa-fw w3-margin-right w3-text-orange"></i><a class="menu-a" href="https://github.com/thechibo">thechibo</a></h5>
+			<h5 class="w3-bar-item w3-padding w3-text"><i class="fa fa-brands fa-orcid fa-fw w3-margin-right w3-text-orange"></i><a class="menu-a" href="https://orcid.org/my-orcid?orcid=0000-0001-8130-2104">0000-0001-8130-2104</a></h5>
+			<h6 class="w3-bar-item w3-padding w3-text">Office No. 108 <br> Department of Mathematics <br> University of Athens <br> Zografos 15784, Greece
+				<br><br>
+				Last Update: December 2024
+			</h6>
+		</div>
+	</nav>
+
+	<!-- Overlay effect when opening sidebar on small screens -->
+	<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+	<!-- !PAGE CONTENT! -->
+	<div class="w3-main" style="margin-left:300px">
+
+		<!-- Header -->
+		<header id="portfolio">
+			<a href="#"><img src="../figures/me.jpg" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
+			<span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+			<div class="w3-container">
+				<div class="w3-section w3-padding-16">
+				  <a href="../index.html"><button class="w3-button w3-black"><i class="fa fa-home w3-margin-right"></i>Home</button></a>
+				  <a href="teaching.html"><button class="w3-button w3-orange"><i class="fa fa-person-chalkboard w3-margin-right"></i>Teaching</button></a>
+				  <a href="toolbox.html"><button class="w3-button w3-black"><i class="fa fa-wrench w3-margin-right"></i>Toolbox</button></a>
+				  <a href="aboutme.html"><button class="w3-button w3-black"><i class="fa fa-user w3-margin-right"></i>About Me</button></a>
+				</div>
+			</div>
+		</header>
+	  
+		<div class="w3-container w3-padding" style="margin-bottom:32px">
+		
+			<h2 class="w3-text-white"><i class="fa fa-person-chalkboard fa-fw w3-margin-right w3-xxlarge w3-text-orange"></i>Teaching</h2>
+			
+			<div class="w3-container">
+				<p>I am a passionate teacher that always enjoys to be in a class full of inquisitive students. I have worked as a lab instructor and teaching assistant for
+				    several courses on statistics at the Department of Mathematics of the University of Athens, and I also have my own e-learning channel. Feel free to look around!
+			</div>
+
+			<h3 class="w3-text-white"><i class="fa fa-clipboard fa-fw w3-margin-right w3-xxlarge w3-text-orange"></i>My Material</h3>
+			
+			<a href="../files/cv.pdf" target="_blank" download="Ioannis Oikonomidis Resume">
+			  <button type="submit" class="w3-button w3-orange w3-padding-large w3-margin">
+				<i class="fa fa-download w3-large w3-margin-right"></i>Mathematical Statistics<br>
+				<div class="w3-small">Something to love</div>
+			  </button>
+			</a>
+			<a href="../files/cv.pdf" target="_blank" download="Ioannis Oikonomidis - Resume">
+			  <button type="submit" class="w3-button w3-orange w3-padding-large w3-margin">
+				<i class="fa fa-download w3-margin-right"></i>Linear Models
+			  </button>
+			</a>
+			<a href="../files/cv.pdf" target="_blank" download="Ioannis Oikonomidis - Resume">
+			  <button type="submit" class="w3-button w3-orange w3-padding-large w3-margin">
+				<i class="fa fa-download w3-margin-right"></i>Linear Models
+			  </button>
+			</a>
+				
+			<h3 class="w3-text-white"><i class="fa fa-chalkboard-user fa-fw w3-margin-right w3-xlarge w3-text-orange"></i>Fox Bytes: A Greek Data Science Channel</h3>
+			<div class="w3-container">
+				Welcome to Fox Bytes! We are a group of academics who love our profession and - whenever we find some spare
+				time - build courses about math, statistics, programming, and many other things that excite us. We strongly believe that knowledge should be shared. Our goal is to turn complex concepts into bite-sized courses.
+				This channel is for students, professionals, and anyone who wants to brush up on their math, dabble in statistics,
+				or learn to code.
+				<br><br>
+				Are you interested in Statistics and Data Science? Join our <a href="https://www.youtube.com/@Fox-Bytes" target="_blank" class="w3-text-orange" style="text-decoration: none;">YouTube channel</a>
+				where we unravel the beauty of mathematics and the ingenuity of coding!
+
+				<div class="w3-row-padding">
+					<div class="w3-third w3-container w3-margin-bottom">
+					  <a href="https://www.youtube.com/@Fox-Bytes" target="_blank" class="w3-text-orange" style="text-decoration: none;">
+						<img src="../figures/rcs.png" alt="Notes" style="width:100%" class="w3-hover-opacity">
+					  <div class="w3-container w3-black" style="padding:0; text-align: center">
+						<p><b>YouTube channel</b></p>
+					  </div>
+					  </a>
+					</div>
+					<div class="w3-third w3-container w3-margin-bottom">
+					  <a href="https://www.youtube.com/@Fox-Bytes" target="_blank" class="w3-text-orange" style="text-decoration: none;">
+						<img src="../figures/rcs.png" alt="Notes" style="width:100%" class="w3-hover-opacity">
+					  <div class="w3-container w3-black" style="padding:0; text-align: center">
+						<p><b>YouTube channel</b></p>
+					  </div>
+					  </a>
+					</div>
+					<div class="w3-third w3-container w3-margin-bottom">
+					  <a href="https://www.youtube.com/@Fox-Bytes" target="_blank" class="w3-text-orange" style="text-decoration: none;">
+						<img src="../figures/rcs.png" alt="Notes" style="width:100%" class="w3-hover-opacity">
+					  <div class="w3-container w3-black" style="padding:0; text-align: center">
+						<p><b>YouTube channel</b></p>
+					  </div>
+					  </a>
+					</div>	 
+				</div>
+			</div>
+		</div>
+			
+	<!-- End page content -->
+	</div>
+
+	<script>
+	// Script to open and close section tabs
+	var coll = document.getElementsByClassName("collapsible");
+	var i;
+
+	for (i = 0; i < coll.length; i++) {
+	  coll[i].addEventListener("click", function() {
+		this.classList.toggle("active");
+		var content = this.nextElementSibling;
+		if (content.style.maxHeight){
+		  content.style.maxHeight = null;
+		} else {
+		  content.style.maxHeight = content.scrollHeight + "px";
+		} 
+	  });
+	}
+	</script>
+
+	<script>
+	// Get the element with id="defaultOpen" and click on it
+	document.getElementById("defaultOpen").click();
+
+	function openCity(evt, cityName) {
+	  // Declare all variables
+	  var i, tabcontent, tablinks;
+
+	  // Get all elements with class="tabcontent" and hide them
+	  tabcontent = document.getElementsByClassName("tabcontent");
+	  for (i = 0; i < tabcontent.length; i++) {
+		tabcontent[i].style.display = "none";
+	  }
+
+	  // Get all elements with class="tablinks" and remove the class "active"
+	  tablinks = document.getElementsByClassName("tablinks");
+	  for (i = 0; i < tablinks.length; i++) {
+		tablinks[i].className = tablinks[i].className.replace(" active", "");
+	  }
+
+	  // Show the current tab, and add an "active" class to the button that opened the tab
+	  document.getElementById(cityName).style.display = "block";
+	  evt.currentTarget.className += " active";
+	} 
+	</script>
+	
+	<script>
+	// Script to open and close sidebar
+	function w3_open() {
+		document.getElementById("mySidebar").style.display = "block";
+		document.getElementById("myOverlay").style.display = "block";
+	}
+	 
+	function w3_close() {
+		document.getElementById("mySidebar").style.display = "none";
+		document.getElementById("myOverlay").style.display = "none";
+	}
+	</script>
+
+</body>
+</html>
